@@ -6,9 +6,11 @@ from datosusr import *
 #class Gusto:
  #  def __init__(self, musica):
 
-
-for music in list(clien1.tipo_musica):
+def gusmus(usr):
+    for music in list(usr):
      if music == 'rock':
-        print (f'Al cliete{clien1.nombre} le gusta el rock')
+        print (f'Al cliete{usr} le gusta el rock')
         break
   
+  
+locals 

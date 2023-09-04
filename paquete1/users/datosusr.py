@@ -6,4 +6,4 @@ clien3 = modulo_cliente.Cliente("Diego", "Bercunchelli", "0992527", "diego@gmail
 clien4 = modulo_cliente.Cliente("Hueso", "Galan", "0992528", "hueso@gmail.com", "transferencia bancaria ", ["canto popular", "candombe", "rock","plena"])
 clien5 = modulo_cliente.Cliente("Nahuel", "Pouso", "0992529", "Nahuel.Pouso@gmail.com", "Transferencia Bancaria", ["rock", "tecno","hevy metal", "country"] )
 
-#print (f'este es el cliente {clien1.nombre}')
+print (f'este es el cliente {clien1.tipo_musica}')

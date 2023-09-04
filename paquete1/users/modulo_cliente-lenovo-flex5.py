@@ -9,12 +9,6 @@ class Cliente:
     
     def __str__ (self):
         return f"apellido del cliente {self.apellido}"
-
-    def gusmus(self, music):
-        for music in list(usr):
-            if music == 'rock':
-              print (f'Al cliete{usr} le gusta el rock')
-              break    
         
 
 
